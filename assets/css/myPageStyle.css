@@ -409,7 +409,7 @@ ul.social_group{
     height:140px;
     width: 100%;
     max-width: 100%;
-    bottom: 0px;
+    /*bottom: 0px;*/
     background-color: rgba(25, 32, 32, 1);
     position: absolute;
     left: 0px;
