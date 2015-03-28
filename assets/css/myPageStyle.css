@@ -1,4 +1,12 @@
 
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
 a{
   color: black;
   outline: none !important;
@@ -144,7 +152,16 @@ margin-left: 0px;
 margin-top: 10px;
 background-color: #ffffff;
 width:100%;
+position: relative;
+min-height: 100%;
+margin-bottom: -140px;
+}
 
+.container-fluid_jd:after{
+
+  content: "";
+  display: block;
+  height: 140px;
 }
 
 .container,
@@ -227,6 +244,7 @@ font-weight: bold;
   margin-left: 0px;
   width: 100%;
   display: inline-flex;
+           -webkit-box;
  
 }
 
@@ -406,15 +424,16 @@ ul.social_group{
 
   }
 
+
 .footerFixed{
 
     height:140px;
     width: 100%;
     max-width: 100%;
-    /*bottom: 0px;*/
     background-color: rgba(25, 32, 32, 1);
     position: absolute;
-    left: 0px;
+    left: 0;
+    /*margin-top: 70px;*/
 
   }
 
@@ -1200,7 +1219,7 @@ a.footer{
       width: 300px;
       margin-left: 0px;
       margin-top: 0px;
-      margin-bottom: 20px;
+      margin-bottom: 40px;
 
     }
 
